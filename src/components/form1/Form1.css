@@ -1,0 +1,141 @@
+
+
+.form1-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./bg-mt.png');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#form1-form{
+    border-radius: 15px;
+    background: white;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#form1-form-part1{
+    height: 30%;
+    /* background: rgb(252, 234, 202);| */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form1-form-part1 p{
+    font-size: larger;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+#form1-form-part2{
+    height: 60%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+
+#form1-form-part2 #form1-parte2-box1{
+    background-color: #eb0c0ca9;
+    height: 65%;
+    width: 98%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form1-form-part2 #form1-parte2-box1 p{
+    font-size: medium;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+#form1-form-part2 #form1-parte2-box1 #form1-botoes{
+    width: 70%;
+    height: 60%;
+    /* background: blue; */
+}
+
+#form1-form-part2 #form1-parte2-box2{
+    background-color: #857a7a46;
+    height: 20%;
+    width: 98%;
+    border-radius: 15px;
+}
+
+#form1-form-part2 #form1-parte2-box3{
+    background-color: #857a7a17;
+    height: 10%;
+    width: 98%;
+    border-radius: 15px;
+}
+
+#form1-form-part3{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#form1-form-part3 buttom{
+    background: #D97070;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+}
+
+
+
+#form1-form-part3 buttom:hover{
+    background: #ec3838;
+}
+
+#form1-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+#form1-botoes #form1-botoes-box1,#form1-botoes #form1-botoes-box2{
+    width: 130px;
+    height: 120px;
+    /* background: orange; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#form1-botoes #form1-botoes-box1{
+    background-image: url(yes.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+
+
+
+
+#form1-botoes #form1-botoes-box2{
+    background-image: url(no.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}

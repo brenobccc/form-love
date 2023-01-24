@@ -1,0 +1,33 @@
+body{
+    backgroud: pink
+}
+
+#form-pedido{
+    background: url(pedidobg.png);
+    background-size:100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#form-pedido #form-p{
+    background: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem-alic{
+    background:url(aliancas.png);
+    width:500px;
+    height: 300px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

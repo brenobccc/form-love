@@ -1,0 +1,20 @@
+#splash{
+    background: orange;
+    background-image: url(bg-splash.png);
+    background-size: 70%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#loader{
+    background-image: url(coracao-loader.gif);
+    /* background: orange; */
+    background-position: center;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
